@@ -75,7 +75,7 @@ inquirer
     .prompt(questions)
     .then((response) => {
         console.log(response)
-        const uniqueName = `${response.name.toLowerCase().split(' ').join('')}_README.md`;
+        const uniqueName = `README_${response.name.toLowerCase().split(' ').join('')}.md`;
         writeToFile(uniqueName, markDown(response))
         
 
