@@ -1,39 +1,53 @@
-# Readme-Generator
 
-  [![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
-  # AHHHH
-  <h1>Title: AHHHH</h1>
-  <h3>Description:</h3> asdjf
-  <br>
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  # bucket
+  
+  <h1>Title: bucket</h1>
+
+  <h3>Description:</h3> sdlfj
+
   <h3>Table of Contents:</h3> 
+
   [Installation](#install)
+
   [Usage](#usage)
+
   [License](#license)
+
   [Contributing](#contributing)
+
   [Tests](#tests)
+
   [Tests](#questions)
-  <br>
-  <br>
+
   <h3><a name="install">Installation:</a></h3>
-  sdjkf
-  <br>
+
+  sdfkj
+
   <h3><a name="usage">Usage:</a></h3>
-  sdkfj
-  <br>
+
+  sdfkjsdf
+
   <h3><a name="liscense">License:</a></h3>
-  Public Domain: This is a “permissive” license that allows adopting the code into applications or projects and reusing the software as desired.
-  <br>
-  ![License: CC0-1.0](http://creativecommons.org/publicdomain/zero/1.0/)
-  <br>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+  ![License: MIT](https://opensource.org/licenses/MIT)
+
   <h3><a name="contributing">Contributing:</a></h3> 
-  dsflkj
-  <br>
+
+  ksdf
+
   <a name="tests"><h3>Tests:</h3></a> 
-  sdlk
-  <br>
+
+  sdk
+
   <a name="questions"><h3>Questions:</h3></a>  
+
   gitHub Name: forgetfulmind
-  <br> 
+
   gitHub Link: <a href="https://github.com/forgetfulmind">https://github.com/forgetfulmind</a>
-  <br>
+
   eMail: forgetfulmind@gmail.com
+
