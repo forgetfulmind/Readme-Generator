@@ -18,6 +18,8 @@
 
   [Questions](#questions)
 
+  [Walkthrough](#walkthrough)
+
 
   <h3><a name="install">Installation:</a></h3>
 
@@ -48,4 +50,8 @@
   gitHub Link: <a href="https://github.com/forgetfulmind">https://github.com/forgetfulmind</a>
 
   eMail: forgetfulmind@gmail.com
+
+  <a name="walkthrough"><h3>Walkthrough:</h3></a>  
+
+  ![walkthrough gif](./readmeGenerator_Walkthrough.gif)
 
