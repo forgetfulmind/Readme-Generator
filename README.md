@@ -33,7 +33,7 @@
 
   This work is covered under the CC0 1.0 Universal license.
 
-  [License: CC0-1.0](http://creativecommons.org/publicdomain/zero/1.0/)
+   Full license information can be found here: [License: CC0-1.0](http://creativecommons.org/publicdomain/zero/1.0/)
 
   <h3><a name="contributing">Contributing:</a></h3> 
 
