@@ -104,9 +104,9 @@ function generateMarkdown(data) {
 
   <h3><a name="liscense">License:</a></h3>
 
-  ${renderLicenseLink(data.license)}
+  ${renderLicenseSection(data.license)}
 
-  Full license information can be found here: ${renderLicenseSection(data.license)}
+  Full license information can be found here: ${renderLicenseLink(data.license)}
 
   <h3><a name="contributing">Contributing:</a></h3> 
 

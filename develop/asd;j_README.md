@@ -1,8 +1,8 @@
 
   [![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
-  # Readme Generator
+  # asd;j
 
-  <h2>Description:</h2> A simple and easy to use command line readme generator.
+  <h2>Description:</h2> asdfkjsadf
 
   <h2>Table of Contents:</h2> 
 
@@ -21,31 +21,31 @@
 
   <h3><a name="install">Installation:</a></h3>
 
-  Please install npm dependencies before use. npm Inquirer is in use. 
+  jkasdf
 
   <h3><a name="usage">Usage:</a></h3>
 
-  Please provide any feedback to improve functionality that you see fit. 
+  sadjkf
 
   <h3><a name="liscense">License:</a></h3>
 
-  This work is covered under the CC0 1.0 Universal license.
-
   [License: CC0-1.0](http://creativecommons.org/publicdomain/zero/1.0/)
+
+  Public Domain: This is a “permissive” license that allows adopting the code into applications or projects and reusing the software as desired.
 
   <h3><a name="contributing">Contributing:</a></h3> 
 
-  Please feel free to split a fork and make a pull request. 
+  sdfjk
 
   <a name="tests"><h3>Tests:</h3></a> 
 
-  No test procedures exist at this time. 
+  asdfjk
 
   <a name="questions"><h3>Questions:</h3></a>  
 
-  gitHub Name: forgetfulmind
+  gitHub Name: jkasdf
 
-  gitHub Link: <a href="https://github.com/forgetfulmind">https://github.com/forgetfulmind</a>
+  gitHub Link: <a href="https://github.com/jkasdf">https://github.com/jkasdf</a>
 
-  eMail: forgetfulmind@gmail.com
+  eMail: asdjkf
 
