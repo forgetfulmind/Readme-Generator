@@ -1,23 +1,22 @@
 # Readme-Generator
-# testTen
-  Tite: testTen
+# test12
+  Tite: test12
   <br>
-  Description: as;ldjf
+  Description: asdfj
   <br>
   Table of Contents: 
-  [License]((#Public Domain))
+  [License](#Permissive)
   <br>
-  Installation: asdflkjasd
+  Installation: asdfjk
   <br>
-  Usage: jksadf
+  Usage: sdfjk
   <br>
-  <a name="Public Domain">License:</a> 
+  <a name="Permissive">License:</a> 
   <br>
-    <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>
-  Public Domain: This is a “permissive” license that allows adopting the code into applications or projects and reusing the software as desired.
+  Permissive: Under a permissive license – also referred to as “Apache” or “BSD style” – there are few restrictions or requirements for the distribution or modifications of the software. Another variation of a permissive software license is the “MIT” license.
   <br>
-  Contributing: kjsadf
+  Contributing: sdfkj
   <br>
-  Tests: lksjdf
+  Tests: sdfkj
   <br>
   Questions: 
