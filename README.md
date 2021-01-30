@@ -31,7 +31,7 @@
 
   [License: CC0-1.0](http://creativecommons.org/publicdomain/zero/1.0/)
 
-  Public Domain: This is a “permissive” license that allows adopting the code into applications or projects and reusing the software as desired.
+  This work is covered under the CC0 1.0 Universal license.
 
   <h3><a name="contributing">Contributing:</a></h3> 
 
