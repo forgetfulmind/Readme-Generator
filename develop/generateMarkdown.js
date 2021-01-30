@@ -1,29 +1,129 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+  let x;
+  switch (license.toString()) {
+    case 'CC0 1.0 Universal':
+      x = "[![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)";
+      break;
+    case 'LGPL':
+      x = "[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)";
+      break;
+    case 'MIT':
+      x = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
+      break;
+    case 'Apache License, Version 2.0':
+      x = "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+      break;
+    case 'Boost':
+      x = "[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)";
+      break;
+  }
+  return x;
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  let x;
+  switch (license.toString()) {
+    case 'CC0 1.0 Universal':
+      x = "[License: CC0-1.0](http://creativecommons.org/publicdomain/zero/1.0/)";
+      break;
+    case 'LGPL':
+      x = "[License: LGPL v3]](https://www.gnu.org/licenses/lgpl-3.0)";
+      break;
+    case 'MIT':
+      x = "[License: MIT](https://opensource.org/licenses/MIT)"
+      break;
+    case 'Apache License, Version 2.0':
+      x = "[License](https://opensource.org/licenses/Apache-2.0)"
+      break;
+    case 'Boost':
+      x = `[License](https://www.boost.org/LICENSE_1_0.txt)`;
+      break;
+  }
+  return x;
+
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  let x;
+  switch (license.toString()) {
+    case 'CC0 1.0 Universal':
+      x = "Public Domain: This is a “permissive” license that allows adopting the code into applications or projects and reusing the software as desired.";
+      break;
+    case 'LGPL':
+      x = "LGPL: Under an LGPL license, developers have rights to link to open source libraries within their own software. Resulting code can be licensed under any other type of license – even proprietary – when projects are compiled or linked to include an LGPL-licensed library.";
+      break;
+    case 'MIT':
+      x = `Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.`;
+      break;
+    case 'Apache License, Version 2.0':
+      x = `Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.You may obtain a copy of the License at <a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a> Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.`;
+      break;
+    case 'Boost':
+      x = `Boost Software License - Version 1.0 - August 17th, 2003 Permission is hereby granted, free of charge, to any person or organization obtaining a copy of the software and accompanying documentation covered by this license (the "Software") to use, reproduce, display, distribute, execute, and transmit the Software, and to prepare derivative works of the Software, and to permit third-parties to whom the Software is furnished to do so, all subject to the following: The copyright notices in the Software and this entire statement, including the above license grant, this restriction and the following disclaimer, must be included in all copies of the Software, in whole or in part, and all derivative works of the Software, unless such copies or derivative works are solely in the form of machine-executable object code generated by a source language processor. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR ANYONE DISTRIBUTING THE SOFTWARE BE LIABLE FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.`;
+      break;
+  }
+  return x;
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.name}
-  <br>
-  Description: ${data.description}
-  <br>
-  Installation Instructions: ${data.install}
-  <br>
-  Usage Information: ${data.usage}
-  <br>
-  Contribution Guidelines: ${data.contribute}
-  <br>
-  Test Instructions: ${data.instructions}
-  <br>
+  return `
+  ${renderLicenseBadge(data.license)}
+  # ${data.name}
+
+  <h2>Description:</h2> ${data.description}
+
+  <h2>Table of Contents:</h2> 
+
+  [Installation](#install)
+
+  [Usage](#usage)
+
+  [License](#license)
+
+  [Contributing](#contributing)
+
+  [Tests](#tests)
+
+  [Questions](#questions)
+
+
+  <h3><a name="install">Installation:</a></h3>
+
+  ${data.install}
+
+  <h3><a name="usage">Usage:</a></h3>
+
+  ${data.usage}
+
+  <h3><a name="liscense">License:</a></h3>
+
+  ${renderLicenseLink(data.license)}
+
+  ${renderLicenseSection(data.license)}
+
+  <h3><a name="contributing">Contributing:</a></h3> 
+
+  ${data.contribute}
+
+  <a name="tests"><h3>Tests:</h3></a> 
+
+  ${data.instructions}
+
+  <a name="questions"><h3>Questions:</h3></a>  
+
+  gitHub Name: ${data.gitHub}
+
+  gitHub Link: <a href="https://github.com/${data.gitHub}">https://github.com/${data.gitHub}</a>
+
+  eMail: ${data.email}
+
 `;
 }
 
