@@ -39,6 +39,7 @@ const questions = [
     {
         type: 'list',
         choices:[
+            'None',
             'CC0 1.0 Universal',
             'GNU LGPL v3',
             'MIT',

@@ -3,6 +3,9 @@
 function renderLicenseBadge(license) {
   let x;
   switch (license.toString()) {
+    case 'None':
+      x = "";
+      break;
     case 'CC0 1.0 Universal':
       x = "[![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)";
       break;
@@ -27,20 +30,23 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   let x;
   switch (license.toString()) {
+    case 'None':
+      x = "";
+      break;
     case 'CC0 1.0 Universal':
-      x = "[License: CC0-1.0](http://creativecommons.org/publicdomain/zero/1.0/)";
+      x = `Full license information can be found here: [License: CC0-1.0](http://creativecommons.org/publicdomain/zero/1.0/)`;
       break;
     case 'LGPL':
-      x = "[License: LGPL v3]](https://www.gnu.org/licenses/lgpl-3.0)";
+      x = `Full license information can be found here: [License: LGPL v3]](https://www.gnu.org/licenses/lgpl-3.0)`;
       break;
     case 'MIT':
-      x = "[License: MIT](https://opensource.org/licenses/MIT)"
+      x = `Full license information can be found here: [License: MIT](https://opensource.org/licenses/MIT)`
       break;
     case 'Apache License, Version 2.0':
-      x = "[License](https://opensource.org/licenses/Apache-2.0)"
+      x = `Full license information can be found here: [License](https://opensource.org/licenses/Apache-2.0)`
       break;
     case 'Boost':
-      x = `[License](https://www.boost.org/LICENSE_1_0.txt)`;
+      x = `Full license information can be found here: [License](https://www.boost.org/LICENSE_1_0.txt)`;
       break;
   }
   return x;
@@ -52,6 +58,9 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   let x;
   switch (license.toString()) {
+    case 'None':
+      x = "";
+      break;
     case 'CC0 1.0 Universal':
       x = "This work is covered under the CC0 1.0 Universal license.";
       break;
@@ -106,7 +115,7 @@ function generateMarkdown(data) {
 
   ${renderLicenseSection(data.license)}
 
-  Full license information can be found here: ${renderLicenseLink(data.license)}
+  ${renderLicenseLink(data.license)}
 
   <h3><a name="contributing">Contributing:</a></h3> 
 
